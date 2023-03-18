@@ -4,16 +4,16 @@
 class Menu
 {
 public:
-	Menu(float width, float height);
-	void Draw(sf::RenderWindow &window);
-	void MoveUp();
-	void MoveDown();
-	int GetPressedItem();
-	sf::RectangleShape box;
-	sf::Texture boxtex;
+    Menu(float width, float height);
+    void Draw(sf::RenderWindow& window);
+    void MoveUp();
+    void MoveDown();
+    int GetPressedItem();
+    void mousePressed(sf::RenderWindow& window);
+    sf::RectangleShape box;
+    sf::Texture boxtex;
 private:
-	int selectedItemIndex;
-	sf:: Font font;
-	sf::Text menu[MAX_NUMBER_OF_ITEMS];
+    int selectedItemIndex;
+    sf::Font font;
+    sf::Text menu[MAX_NUMBER_OF_ITEMS];
 };
-

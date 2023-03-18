@@ -28,7 +28,10 @@ int main()
         {
             if (event.type == sf::Event::Closed)
                 window.close();
-            if (event.type == sf::Event::KeyReleased)
+            if (event.type == sf::Event::MouseMoved) {
+                gamemenu.mousePressed(window);
+            }
+            if (event.type == sf::Event::KeyReleased || event.type == sf::Event::MouseButtonReleased)
             {
                 if (event.key.code == sf::Keyboard::Up)
                 {
@@ -39,8 +42,7 @@ int main()
                 {
                     gamemenu.MoveDown();
                 }
-
-                if (event.key.code == sf::Keyboard::Return)
+                if (event.key.code == sf::Keyboard::Return || event.mouseButton.button == sf::Mouse::Left)
                 {
                     sf::RenderWindow PlayOffline(sf::VideoMode(960, 720), "New CV", sf::Style::Close | sf::Style::Resize);
                     sf::RenderWindow PlayOnline(sf::VideoMode(960, 720), "Editing CV", sf::Style::Close | sf::Style::Resize);

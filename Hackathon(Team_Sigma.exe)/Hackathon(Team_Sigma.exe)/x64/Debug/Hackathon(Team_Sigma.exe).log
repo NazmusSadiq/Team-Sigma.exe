@@ -1,2 +1,14 @@
 ﻿  Menu.cpp
+  main.cpp
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\main.cpp(11,55): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\main.cpp(11,35): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+  Generating Code...
   Hackathon(Team_Sigma.exe).vcxproj -> F:\Hackathon Project\Hackathon(Team_Sigma.exe)\x64\Debug\Hackathon(Team_Sigma.exe).exe
