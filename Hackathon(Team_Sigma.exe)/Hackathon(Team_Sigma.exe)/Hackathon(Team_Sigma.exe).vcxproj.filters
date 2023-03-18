@@ -24,9 +24,6 @@
     <ClCompile Include="second_page.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="third_page.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Menu.h">
@@ -42,6 +39,18 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="GetPersonalInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GetSocialinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GetEducationinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GetBusinessinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GetAdditionalinfo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

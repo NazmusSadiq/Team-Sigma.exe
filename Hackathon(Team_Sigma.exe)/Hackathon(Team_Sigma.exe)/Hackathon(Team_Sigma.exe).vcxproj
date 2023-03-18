@@ -136,11 +136,14 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="second_page.cpp" />
-    <ClCompile Include="third_page.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="filename.h" />
+    <ClInclude Include="GetAdditionalinfo.h" />
+    <ClInclude Include="GetBusinessinfo.h" />
+    <ClInclude Include="GetEducationinfo.h" />
     <ClInclude Include="GetPersonalInfo.h" />
+    <ClInclude Include="GetSocialinfo.h" />
     <ClInclude Include="Menu.h" />
     <ClInclude Include="second_page.h" />
     <ClInclude Include="third_page.h" />

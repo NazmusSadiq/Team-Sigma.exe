@@ -4,8 +4,12 @@
 
 void getPersonalInfo(std::string inputString[5])
 {
-    sf::RenderWindow window(sf::VideoMode(800, 600), "SFML Window"); // Create a window
-
+    sf::RenderWindow window(sf::VideoMode(960, 720), "Personal Information",sf::Style::Close); // Create a window
+    sf::RectangleShape shape;
+    shape.setSize(sf::Vector2f(960, 720));
+    sf::Texture tex;
+    tex.loadFromFile("light.jpg");
+    shape.setTexture(&tex);
     sf::Font font; // Create a font object
     if (!font.loadFromFile("arial.ttf")) // Load a font file
     {
@@ -13,7 +17,7 @@ void getPersonalInfo(std::string inputString[5])
         return;
     }
 
-    sf::Text text[5], textans[5]; // Create a text object for input box
+    sf::Text text[5], textans[5],title; // Create a text object for input box
     for (int i = 0; i < 5; i++)
     {
         text[i].setFont(font); // Set the font
@@ -23,21 +27,27 @@ void getPersonalInfo(std::string inputString[5])
         textans[i].setCharacterSize(30); // Set the character size
         textans[i].setFillColor(sf::Color::Black);
     } // Set the fill color
-    text[0].setPosition(100, 100); // Set the position of the text
+    title.setFont(font); // Set the font
+    title.setCharacterSize(30); // Set the character size
+    title.setFillColor(sf::Color::Black);
+    title.setString("Personal Information");
+    title.setPosition(290, 100);
+    title.setScale(1.5, 1.5);
+    text[0].setPosition(100, 250); // Set the position of the text
     text[0].setString("First Name:\n");
-    text[1].setPosition(100, 140); // Set the position of the text
+    text[1].setPosition(100, 290); // Set the position of the text
     text[1].setString("Last Name:\n");
-    text[2].setPosition(100, 180); // Set the position of the text
+    text[2].setPosition(100, 330); // Set the position of the text
     text[2].setString("Nationality:\n");
-    text[3].setPosition(100, 220); // Set the position of the text
+    text[3].setPosition(100, 370); // Set the position of the text
     text[3].setString("Date Of Birth(DD/MM/YY):\n");
-    text[4].setPosition(100, 260);
+    text[4].setPosition(100, 410);
     text[4].setString("Gender:\n");
-    textans[0].setPosition(280, 100); // Set the position of the text
-    textans[1].setPosition(280, 140); // Set the position of the text
-    textans[2].setPosition(280, 180); // Set the position of the text
-    textans[3].setPosition(470, 220); // Set the position of the text
-    textans[4].setPosition(230, 260); // Set the position of the text
+    textans[0].setPosition(280, 252); // Set the position of the text
+    textans[1].setPosition(280, 292); // Set the position of the text
+    textans[2].setPosition(280, 332); // Set the position of the text
+    textans[3].setPosition(470, 372); // Set the position of the text
+    textans[4].setPosition(230, 412); // Set the position of the text
     int i = 0;
     std::string abc = "";
     while (window.isOpen()) // Main game loop
@@ -64,7 +74,7 @@ void getPersonalInfo(std::string inputString[5])
                     else if (event.text.unicode == '\r') // Handle enter key
                     {
                         i++;
-                        if (i > 4) break;// Return the input string when enter key is pressed
+                        if (i > 4) return;// Return the input string when enter key is pressed
                     }
                     else // Add character to input string
                     {
@@ -76,7 +86,8 @@ void getPersonalInfo(std::string inputString[5])
         }
 
         window.clear(sf::Color::White); // Clear the window with white color
-        
+        window.draw(shape);
+        window.draw(title);
         for(int i=0;i<5;i++)
             window.draw(text[i]);
         for (int i = 0; i < 5; i++)

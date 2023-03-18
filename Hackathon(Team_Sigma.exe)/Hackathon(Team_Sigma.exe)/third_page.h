@@ -33,5 +33,12 @@ typedef struct educationinfo
 	string fieldofstudy;
 	string qualification;
 }eduinfo;
-string skillinfo;
+typedef struct additionalinfo
+{
+	string language;
+	string accomplishment;
+	string certification;
+	string hobbies;
+	string sports;
+}adlinfo;
 

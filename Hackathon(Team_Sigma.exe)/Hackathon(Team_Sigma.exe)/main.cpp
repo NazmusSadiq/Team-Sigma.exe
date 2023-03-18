@@ -8,7 +8,10 @@
 #include "second_page.h"
 #include "filename.h"
 #include "GetPersonalInfo.h"
-
+#include "GetSocialinfo.h"
+#include "GetEducationinfo.h"
+#include "GetBusinessinfo.h"
+#include "GetAdditionalinfo.h"
 int main()
 {
     sf::RenderWindow window(sf::VideoMode(960, 720), "This is the menu", sf::Style::Close | sf::Style::Resize);
@@ -19,7 +22,8 @@ int main()
     sf::Texture mainbg;
     mainbg.loadFromFile("light.jpg");
     background.setTexture(&mainbg);
-    std::string filename, testingper[5] = {"","", "", "", ""};
+    std::string finalname,filename, testingper[5] = {"","", "", "", ""},testingsoc[4]={ "","", "", "" }, testingedu[5] = { "","", "", "", "" },
+        testingbus[6] = { "","", "", "", "",""}, testingadd[6] = { "","", "", "", "",""};
 
     
 
@@ -54,7 +58,7 @@ int main()
                     if (num != 2)
                     {
                         getStringInput(filename);
-                        std::string abc = filename;
+                        finalname = filename;
                         filename = "";
                         //std::cout << filename;
                     }
@@ -97,6 +101,10 @@ int main()
                                                 {
                                                     sf::RenderWindow pinfo(sf::VideoMode(960, 720), "Personal Information", sf::Style::Close | sf::Style::Resize);
                                                     getPersonalInfo(testingper);
+                                                    getSocialInfo(testingsoc);
+                                                    getEducationalInfo(testingedu);
+                                                    getBusinessInfo(testingbus);
+                                                    getAdditionalInfo(testingadd);
                                                     while (pinfo.isOpen())
                                                     {
                                                         sf::Event nt;
@@ -116,6 +124,7 @@ int main()
                                                         pinfo.display();
                                                     }
                                                 }
+                                                
                                                 if (num1 == 3)
                                                     cvtype.close();
                                             }

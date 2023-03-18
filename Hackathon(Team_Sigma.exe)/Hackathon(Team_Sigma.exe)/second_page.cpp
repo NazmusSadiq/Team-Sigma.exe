@@ -6,29 +6,36 @@
 #include "second_page.h"
 
 
-
+sf::Text title;
 Industry::Industry(float width, float height)
 {
-	if (!font.loadFromFile("Plaguard-ZVnjx.otf"))
+	if (!font.loadFromFile("arial.ttf"))
 	{
 		std::cout << "Not Loaded";
 	}
+	
+	title.setFont(font); // Set the font
+	title.setCharacterSize(30); // Set the character size
+	title.setFillColor(sf::Color::Black);
+	title.setString("Types Of CV");
+	title.setPosition(340, 100);
+	title.setScale(1.4, 1.4);
 	menu[0].setFont(font);
 	menu[0].setFillColor(sf::Color::Red);
 	menu[0].setString("Corporate");
-	menu[0].setPosition(sf::Vector2f(width / 2 - 75, height / (MAX_NUMBER_OF_ITEMS + 1) * 1));
+	menu[0].setPosition(sf::Vector2f(width / 2 - 75, height / (MAX_NUMBER_OF_ITEMS + 1) * 1+150));
 	menu[1].setFont(font);
 	menu[1].setFillColor(sf::Color::Black);
 	menu[1].setString("Academics");
-	menu[1].setPosition(sf::Vector2f(width / 2 - 75, height / (MAX_NUMBER_OF_ITEMS + 1) * 2));
+	menu[1].setPosition(sf::Vector2f(width / 2 - 75, height / (MAX_NUMBER_OF_ITEMS + 1) * 2+150));
 	menu[2].setFont(font);
 	menu[2].setFillColor(sf::Color::Black);
 	menu[2].setString("Industrial");
-	menu[2].setPosition(sf::Vector2f(width / 2 - 75, height / (MAX_NUMBER_OF_ITEMS + 1) * 3));
+	menu[2].setPosition(sf::Vector2f(width / 2 - 75, height / (MAX_NUMBER_OF_ITEMS + 1) * 3+150));
 	menu[3].setFont(font);
 	menu[3].setFillColor(sf::Color::Black);
 	menu[3].setString("Back");
-	menu[3].setPosition(sf::Vector2f(width / 2 - 75, height / (MAX_NUMBER_OF_ITEMS + 1) * 4));
+	menu[3].setPosition(sf::Vector2f(width / 2 - 75, height / (MAX_NUMBER_OF_ITEMS + 1) * 4+150));
 	selectedItemIndex = 0;
 }
 
@@ -38,6 +45,7 @@ void Industry::Draw(sf::RenderWindow& window)
 	{
 		window.draw(menu[i]);
 	}
+	window.draw(title);
 }
 void Industry::MoveUp()
 {

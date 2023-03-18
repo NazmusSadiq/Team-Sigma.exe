@@ -5,7 +5,11 @@
 void getStringInput(std::string& inputString)
 {
     sf::RenderWindow window(sf::VideoMode(960, 720), "SFML Window"); // Create a window
-
+    sf::RectangleShape shape;
+    shape.setSize(sf::Vector2f(960, 720));
+    sf::Texture tex;
+    tex.loadFromFile("light.jpg");
+    shape.setTexture(&tex);
     sf::Font font; // Create a font object
     if (!font.loadFromFile("arial.ttf")) // Load a font file
     {
@@ -22,7 +26,7 @@ void getStringInput(std::string& inputString)
     text.setFont(font); // Set the font
     text.setCharacterSize(40); // Set the character size
     text.setFillColor(sf::Color::Black); // Set the fill color
-    text.setPosition(330, 300); // Set the position of the text
+    text.setPosition(370, 300); // Set the position of the text
 
     while (window.isOpen()) // Main game loop
     {
@@ -59,6 +63,7 @@ void getStringInput(std::string& inputString)
         }
 
         window.clear(sf::Color::White); // Clear the window with white color
+        window.draw(shape);
         window.draw(text1);
         window.draw(text); // Draw the text object to the window
         window.display(); // Update the window display
