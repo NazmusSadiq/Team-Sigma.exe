@@ -7,6 +7,7 @@
 #include <string>
 #include "second_page.h"
 #include "filename.h"
+#include "GetPersonalInfo.h"
 
 int main()
 {
@@ -18,7 +19,7 @@ int main()
     sf::Texture mainbg;
     mainbg.loadFromFile("light.jpg");
     background.setTexture(&mainbg);
-    std::string filename;
+    std::string filename, testingper[5] = {"","", "", "", ""};
 
     
 
@@ -53,6 +54,8 @@ int main()
                     if (num != 2)
                     {
                         getStringInput(filename);
+                        std::string abc = filename;
+                        filename = "";
                         //std::cout << filename;
                     }
                     if (num == 0)
@@ -93,6 +96,7 @@ int main()
                                                 if (num1 <3) 
                                                 {
                                                     sf::RenderWindow pinfo(sf::VideoMode(960, 720), "Personal Information", sf::Style::Close | sf::Style::Resize);
+                                                    getPersonalInfo(testingper);
                                                     while (pinfo.isOpen())
                                                     {
                                                         sf::Event nt;

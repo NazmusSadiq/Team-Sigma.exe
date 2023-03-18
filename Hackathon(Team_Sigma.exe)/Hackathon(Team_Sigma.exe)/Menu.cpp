@@ -9,7 +9,7 @@
 
 Menu::Menu(float width, float height)
 {
-	if (!font.loadFromFile("Plaguard-ZVnjx.otf"))
+	if (!font.loadFromFile("arial.ttf"))
 	{
 		std::cout << "Not Loaded";
 	}

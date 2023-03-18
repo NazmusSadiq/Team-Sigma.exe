@@ -4,7 +4,7 @@
 
 void getStringInput(std::string& inputString)
 {
-    sf::RenderWindow window(sf::VideoMode(800, 600), "SFML Window"); // Create a window
+    sf::RenderWindow window(sf::VideoMode(960, 720), "SFML Window"); // Create a window
 
     sf::Font font; // Create a font object
     if (!font.loadFromFile("arial.ttf")) // Load a font file
@@ -15,14 +15,14 @@ void getStringInput(std::string& inputString)
 
     sf::Text text,text1; // Create a text object for input box
     text1.setFont(font); // Set the font
-    text1.setCharacterSize(20); // Set the character size
+    text1.setCharacterSize(30); // Set the character size
     text1.setFillColor(sf::Color::Black); // Set the fill color
-    text1.setPosition(100, 100); // Set the position of the text
+    text1.setPosition(250, 250); // Set the position of the text
     text1.setString("Enter name of your CV (Don't use space)\n");
     text.setFont(font); // Set the font
-    text.setCharacterSize(30); // Set the character size
+    text.setCharacterSize(40); // Set the character size
     text.setFillColor(sf::Color::Black); // Set the fill color
-    text.setPosition(100, 140); // Set the position of the text
+    text.setPosition(330, 300); // Set the position of the text
 
     while (window.isOpen()) // Main game loop
     {
