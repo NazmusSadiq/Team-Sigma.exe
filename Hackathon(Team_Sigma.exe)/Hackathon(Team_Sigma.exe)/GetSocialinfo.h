@@ -35,16 +35,16 @@ void getSocialInfo(std::string inputString[4])
     title.setPosition(290, 100);
     title.setScale(1.5, 1.5);
     text[0].setPosition(100, 250); // Set the position of the text
-    text[0].setString("Postal Code:\n");
+    text[0].setString("Phone:\n");
     text[1].setPosition(100, 290); // Set the position of the text
-    text[1].setString("Phone:\n");
+    text[1].setString("Email:\n");
     text[2].setPosition(100, 330); // Set the position of the text
-    text[2].setString("Email:\n");
+    text[2].setString("Postal Code:\n");
     text[3].setPosition(100, 370); // Set the position of the text
     text[3].setString("LinkedIn ID Link:\n");
     textans[0].setPosition(290, 252); // Set the position of the text
     textans[1].setPosition(220, 292); // Set the position of the text
-    textans[2].setPosition(220, 332); // Set the position of the text
+    textans[2].setPosition(280, 332); // Set the position of the text
     textans[3].setPosition(340, 372); // Set the position of the text
     int i = 0;
     std::string abc = "";

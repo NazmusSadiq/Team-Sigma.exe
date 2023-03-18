@@ -2,22 +2,22 @@
 F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\second_page.h(2,1): warning C4005: 'MAX_NUMBER_OF_ITEMS': macro redefinition
 F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\Menu.h(2,1): message : see previous definition of 'MAX_NUMBER_OF_ITEMS'
 F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\GetAdditionalinfo.h(35,28): warning C4305: 'argument': truncation from 'double' to 'float'
-F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\main.cpp(18,55): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\main.cpp(19,55): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
           with
           [
               T=unsigned int
           ]
-F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\main.cpp(18,35): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\main.cpp(19,35): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
           with
           [
               T=unsigned int
           ]
-F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\main.cpp(19,54): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\main.cpp(20,54): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
           with
           [
               T=unsigned int
           ]
-F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\main.cpp(19,34): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\main.cpp(20,34): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
           with
           [
               T=unsigned int

@@ -11,12 +11,12 @@ typedef struct generalinfo
 }gnrlinfo;
 typedef struct socialinfo
 {
-	string linkedinlink;
+	string linkedinIDlink;
 	string postalcode;
 	string phone;
 	string email;
 }sclinfo;
-typedef struct businessinfo
+typedef struct jobinfo
 {
 	string jobtitle;
 	string employer;
@@ -24,7 +24,7 @@ typedef struct businessinfo
 	string country;
 	string startdate;
 	string enddate;
-}bsinfo;
+}jbinfo;
 typedef struct educationinfo
 {
 	string instname;
@@ -40,5 +40,6 @@ typedef struct additionalinfo
 	string certification;
 	string hobbies;
 	string sports;
+	string extra;
 }adlinfo;
 

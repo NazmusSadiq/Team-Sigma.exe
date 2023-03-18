@@ -6,6 +6,7 @@
 #include "Menu.h"
 #include <string>
 #include "second_page.h"
+#include "third_page.h"
 #include "filename.h"
 #include "GetPersonalInfo.h"
 #include "GetSocialinfo.h"
@@ -25,7 +26,11 @@ int main()
     std::string finalname,filename, testingper[5] = {"","", "", "", ""},testingsoc[4]={ "","", "", "" }, testingedu[5] = { "","", "", "", "" },
         testingbus[6] = { "","", "", "", "",""}, testingadd[6] = { "","", "", "", "",""};
 
-    
+    generalinfo genio;
+    socialinfo solio;
+    jobinfo jonio;
+    educationinfo edunio;
+    additionalinfo adnio;
 
     while (window.isOpen())
     {
@@ -101,10 +106,50 @@ int main()
                                                 {
                                                     sf::RenderWindow pinfo(sf::VideoMode(960, 720), "Personal Information", sf::Style::Close | sf::Style::Resize);
                                                     getPersonalInfo(testingper);
+                                                    //personal data storing
+                                                    genio.firstname = testingper[0];
+                                                    genio.lastname = testingper[1];
+                                                    genio.nationality = testingper[2];
+                                                    genio.dateofbirth = testingper[3];
+                                                    genio.gender = testingper[4];
+                                                    //cout << "personal" << genio.firstname << " " << genio.lastname << " " << genio.nationality << " " << genio.dateofbirth << " " << genio.gender<<endl;
                                                     getSocialInfo(testingsoc);
-                                                    getEducationalInfo(testingedu);
+                                                    //social data storing
+                                                    solio.phone = testingsoc[0];
+                                                    solio.email = testingsoc[1];
+                                                    solio.postalcode = testingsoc[2];
+                                                    solio.linkedinIDlink = testingsoc[3];
+                                                    //cout << "Social" << solio.phone << " " << solio.email << " " << solio.postalcode << " " << solio.linkedinIDlink<<endl;
                                                     getBusinessInfo(testingbus);
+                                                    //business data storing
+                                                    jonio.jobtitle = testingbus[0];
+                                                    jonio.employer = testingbus[1];
+                                                    jonio.city = testingbus[2];
+                                                    jonio.country = testingbus[3];
+                                                    jonio.startdate = testingbus[4];
+                                                    jonio.enddate = testingbus[5];
+                                                    //cout << "Job" << jonio.jobtitle << " " << jonio.employer << " " << jonio.city << " " << jonio.country << " " << jonio.startdate << " " << jonio.enddate<<endl;
+                                                    getEducationalInfo(testingedu);
+                                                    //education data storing
+                                                    edunio.instname = testingedu[0];
+                                                    edunio.instlocation = testingedu[1];
+                                                    edunio.graduationyear = testingedu[2];
+                                                    edunio.fieldofstudy = testingedu[3];
+                                                    edunio.qualification = testingedu[4];
+                                                    //cout << "Edu" << edunio.instname << " " << edunio.instlocation << " " << edunio.graduationyear << " " << edunio.fieldofstudy << " " << edunio.qualification << endl;
                                                     getAdditionalInfo(testingadd);
+                                                    //additional data storing
+                                                    adnio.language = testingadd[0];
+                                                    adnio.accomplishment = testingadd[1];
+                                                    adnio.certification = testingadd[2];
+                                                    adnio.hobbies = testingadd[3];
+                                                    adnio.sports = testingadd[4];
+                                                    adnio.extra = testingadd[5];
+                                                    //cout << "Addi" << adnio.language << " " << adnio.accomplishment << " " << adnio.certification << " " << adnio.hobbies << " " << adnio.sports << " " << adnio.extra << endl;
+                                                    
+                                                    
+                                                    
+                                                    
                                                     while (pinfo.isOpen())
                                                     {
                                                         sf::Event nt;
@@ -186,5 +231,7 @@ int main()
         gamemenu.Draw(window);
 
         window.display();
+
     }
+
 }
