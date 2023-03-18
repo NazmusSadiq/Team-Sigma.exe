@@ -1,14 +1,24 @@
-﻿  Menu.cpp
-  main.cpp
-F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\main.cpp(11,55): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+﻿  main.cpp
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\second_page.h(2,1): warning C4005: 'MAX_NUMBER_OF_ITEMS': macro redefinition
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\Menu.h(2,1): message : see previous definition of 'MAX_NUMBER_OF_ITEMS'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\main.cpp(14,55): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
           with
           [
               T=unsigned int
           ]
-F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\main.cpp(11,35): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\main.cpp(14,35): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
           with
           [
               T=unsigned int
           ]
-  Generating Code...
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\main.cpp(15,54): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\main.cpp(15,34): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
   Hackathon(Team_Sigma.exe).vcxproj -> F:\Hackathon Project\Hackathon(Team_Sigma.exe)\x64\Debug\Hackathon(Team_Sigma.exe).exe
