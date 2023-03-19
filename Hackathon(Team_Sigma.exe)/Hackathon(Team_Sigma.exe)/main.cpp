@@ -1,4 +1,5 @@
 #include <iostream>
+#include <stdlib.h>
 #include<SFML/System.hpp>
 #include<SFML/Graphics.hpp>
 #include<SFML/Audio.hpp>
@@ -13,6 +14,10 @@
 #include "GetEducationinfo.h"
 #include "GetBusinessinfo.h"
 #include "GetAdditionalinfo.h"
+#include "finder.h"
+#include "saviour.h"
+#include "CVgenerator.h"
+#include "preview.h"
 int main()
 {
     sf::RenderWindow window(sf::VideoMode(960, 720), "This is the menu", sf::Style::Close | sf::Style::Resize);
@@ -112,6 +117,11 @@ int main()
                                                     genio.nationality = testingper[2];
                                                     genio.dateofbirth = testingper[3];
                                                     genio.gender = testingper[4];
+                                                    string fname = genio.firstname;
+                                                    string lname = genio.lastname;
+                                                    string nat = genio.nationality;
+                                                    string date = genio.dateofbirth;
+                                                    string gender = genio.gender;
                                                     //cout << "personal" << genio.firstname << " " << genio.lastname << " " << genio.nationality << " " << genio.dateofbirth << " " << genio.gender<<endl;
                                                     getSocialInfo(testingsoc);
                                                     //social data storing
@@ -146,8 +156,7 @@ int main()
                                                     adnio.sports = testingadd[4];
                                                     adnio.extra = testingadd[5];
                                                     //cout << "Addi" << adnio.language << " " << adnio.accomplishment << " " << adnio.certification << " " << adnio.hobbies << " " << adnio.sports << " " << adnio.extra << endl;
-                                                    
-                                                    
+                                                    preView(genio, solio, jonio, edunio, adnio, finalname);
                                                     
                                                     
                                                     while (pinfo.isOpen())
@@ -233,5 +242,6 @@ int main()
         window.display();
 
     }
+   
 
 }

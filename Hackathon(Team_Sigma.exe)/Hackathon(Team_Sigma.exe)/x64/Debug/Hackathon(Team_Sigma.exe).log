@@ -2,22 +2,237 @@
 F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\second_page.h(2,1): warning C4005: 'MAX_NUMBER_OF_ITEMS': macro redefinition
 F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\Menu.h(2,1): message : see previous definition of 'MAX_NUMBER_OF_ITEMS'
 F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\GetAdditionalinfo.h(35,28): warning C4305: 'argument': truncation from 'double' to 'float'
-F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\main.cpp(19,55): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(9,18): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(9,18): message : this argument is used by a conversion specifier
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(9,18): warning C4473: 'fscanf_s' : not enough arguments passed for format string
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(9,18): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(9,18): message : the missing variadic argument 2 is required by format string '%s'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(9,18): message : this argument is used as a buffer size
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(11,17): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(11,17): message : this argument is used by a conversion specifier
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(11,17): warning C4473: 'fscanf_s' : not enough arguments passed for format string
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(11,17): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(11,17): message : the missing variadic argument 2 is required by format string '%s'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(11,17): message : this argument is used as a buffer size
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(12,17): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(12,17): message : this argument is used by a conversion specifier
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(12,17): warning C4473: 'fscanf_s' : not enough arguments passed for format string
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(12,17): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(12,17): message : the missing variadic argument 2 is required by format string '%s'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(12,17): message : this argument is used as a buffer size
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(13,17): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(13,17): message : this argument is used by a conversion specifier
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(13,17): warning C4473: 'fscanf_s' : not enough arguments passed for format string
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(13,17): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(13,17): message : the missing variadic argument 2 is required by format string '%s'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(13,17): message : this argument is used as a buffer size
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(14,17): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(14,17): message : this argument is used by a conversion specifier
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(14,17): warning C4473: 'fscanf_s' : not enough arguments passed for format string
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(14,17): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(14,17): message : the missing variadic argument 2 is required by format string '%s'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(14,17): message : this argument is used as a buffer size
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(15,17): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(15,17): message : this argument is used by a conversion specifier
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(15,17): warning C4473: 'fscanf_s' : not enough arguments passed for format string
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(15,17): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(15,17): message : the missing variadic argument 2 is required by format string '%s'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(15,17): message : this argument is used as a buffer size
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(16,17): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(16,17): message : this argument is used by a conversion specifier
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(16,17): warning C4473: 'fscanf_s' : not enough arguments passed for format string
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(16,17): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(16,17): message : the missing variadic argument 2 is required by format string '%s'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(16,17): message : this argument is used as a buffer size
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(18,17): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(18,17): message : this argument is used by a conversion specifier
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(18,17): warning C4473: 'fscanf_s' : not enough arguments passed for format string
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(18,17): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(18,17): message : the missing variadic argument 2 is required by format string '%s'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(18,17): message : this argument is used as a buffer size
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(19,17): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(19,17): message : this argument is used by a conversion specifier
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(19,17): warning C4473: 'fscanf_s' : not enough arguments passed for format string
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(19,17): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(19,17): message : the missing variadic argument 2 is required by format string '%s'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(19,17): message : this argument is used as a buffer size
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(20,17): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(20,17): message : this argument is used by a conversion specifier
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(20,17): warning C4473: 'fscanf_s' : not enough arguments passed for format string
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(20,17): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(20,17): message : the missing variadic argument 2 is required by format string '%s'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(20,17): message : this argument is used as a buffer size
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(21,17): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(21,17): message : this argument is used by a conversion specifier
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(21,17): warning C4473: 'fscanf_s' : not enough arguments passed for format string
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(21,17): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(21,17): message : the missing variadic argument 2 is required by format string '%s'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(21,17): message : this argument is used as a buffer size
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(23,17): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(23,17): message : this argument is used by a conversion specifier
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(23,17): warning C4473: 'fscanf_s' : not enough arguments passed for format string
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(23,17): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(23,17): message : the missing variadic argument 2 is required by format string '%s'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(23,17): message : this argument is used as a buffer size
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(24,17): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(24,17): message : this argument is used by a conversion specifier
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(24,17): warning C4473: 'fscanf_s' : not enough arguments passed for format string
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(24,17): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(24,17): message : the missing variadic argument 2 is required by format string '%s'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(24,17): message : this argument is used as a buffer size
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(25,17): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(25,17): message : this argument is used by a conversion specifier
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(25,17): warning C4473: 'fscanf_s' : not enough arguments passed for format string
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(25,17): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(25,17): message : the missing variadic argument 2 is required by format string '%s'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(25,17): message : this argument is used as a buffer size
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(26,17): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(26,17): message : this argument is used by a conversion specifier
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(26,17): warning C4473: 'fscanf_s' : not enough arguments passed for format string
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(26,17): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(26,17): message : the missing variadic argument 2 is required by format string '%s'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(26,17): message : this argument is used as a buffer size
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(27,17): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(27,17): message : this argument is used by a conversion specifier
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(27,17): warning C4473: 'fscanf_s' : not enough arguments passed for format string
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(27,17): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(27,17): message : the missing variadic argument 2 is required by format string '%s'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(27,17): message : this argument is used as a buffer size
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(28,17): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(28,17): message : this argument is used by a conversion specifier
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(28,17): warning C4473: 'fscanf_s' : not enough arguments passed for format string
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(28,17): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(28,17): message : the missing variadic argument 2 is required by format string '%s'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(28,17): message : this argument is used as a buffer size
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(30,17): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(30,17): message : this argument is used by a conversion specifier
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(30,17): warning C4473: 'fscanf_s' : not enough arguments passed for format string
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(30,17): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(30,17): message : the missing variadic argument 2 is required by format string '%s'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(30,17): message : this argument is used as a buffer size
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(31,17): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(31,17): message : this argument is used by a conversion specifier
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(31,17): warning C4473: 'fscanf_s' : not enough arguments passed for format string
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(31,17): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(31,17): message : the missing variadic argument 2 is required by format string '%s'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(31,17): message : this argument is used as a buffer size
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(32,17): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(32,17): message : this argument is used by a conversion specifier
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(32,17): warning C4473: 'fscanf_s' : not enough arguments passed for format string
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(32,17): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(32,17): message : the missing variadic argument 2 is required by format string '%s'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(32,17): message : this argument is used as a buffer size
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(33,17): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(33,17): message : this argument is used by a conversion specifier
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(33,17): warning C4473: 'fscanf_s' : not enough arguments passed for format string
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(33,17): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(33,17): message : the missing variadic argument 2 is required by format string '%s'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(33,17): message : this argument is used as a buffer size
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(34,17): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(34,17): message : this argument is used by a conversion specifier
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(34,17): warning C4473: 'fscanf_s' : not enough arguments passed for format string
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(34,17): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(34,17): message : the missing variadic argument 2 is required by format string '%s'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(34,17): message : this argument is used as a buffer size
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(36,17): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(36,17): message : this argument is used by a conversion specifier
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(36,17): warning C4473: 'fscanf_s' : not enough arguments passed for format string
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(36,17): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(36,17): message : the missing variadic argument 2 is required by format string '%s'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(36,17): message : this argument is used as a buffer size
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(37,17): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(37,17): message : this argument is used by a conversion specifier
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(37,17): warning C4473: 'fscanf_s' : not enough arguments passed for format string
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(37,17): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(37,17): message : the missing variadic argument 2 is required by format string '%s'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(37,17): message : this argument is used as a buffer size
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(38,17): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(38,17): message : this argument is used by a conversion specifier
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(38,17): warning C4473: 'fscanf_s' : not enough arguments passed for format string
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(38,17): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(38,17): message : the missing variadic argument 2 is required by format string '%s'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(38,17): message : this argument is used as a buffer size
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(39,17): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(39,17): message : this argument is used by a conversion specifier
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(39,17): warning C4473: 'fscanf_s' : not enough arguments passed for format string
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(39,17): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(39,17): message : the missing variadic argument 2 is required by format string '%s'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(39,17): message : this argument is used as a buffer size
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(40,17): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(40,17): message : this argument is used by a conversion specifier
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(40,17): warning C4473: 'fscanf_s' : not enough arguments passed for format string
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(40,17): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(40,17): message : the missing variadic argument 2 is required by format string '%s'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(40,17): message : this argument is used as a buffer size
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(41,17): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(41,17): message : this argument is used by a conversion specifier
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(41,17): warning C4473: 'fscanf_s' : not enough arguments passed for format string
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(41,17): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(41,17): message : the missing variadic argument 2 is required by format string '%s'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\finder.h(41,17): message : this argument is used as a buffer size
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\saviour.h(8,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\saviour.h(10,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\saviour.h(11,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\saviour.h(12,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\saviour.h(13,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\saviour.h(14,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\saviour.h(16,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\saviour.h(17,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\saviour.h(18,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\saviour.h(19,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\saviour.h(21,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\saviour.h(22,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\saviour.h(23,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\saviour.h(24,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\saviour.h(25,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\saviour.h(26,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\saviour.h(28,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\saviour.h(29,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\saviour.h(30,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\saviour.h(31,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\saviour.h(32,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\saviour.h(34,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\saviour.h(35,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\saviour.h(36,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\saviour.h(37,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\saviour.h(38,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\saviour.h(39,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\CVgenerator.h(7,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\CVgenerator.h(7,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 2 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\CVgenerator.h(8,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\CVgenerator.h(9,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\CVgenerator.h(10,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\CVgenerator.h(11,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\CVgenerator.h(15,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\CVgenerator.h(16,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\CVgenerator.h(17,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\CVgenerator.h(18,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\CVgenerator.h(19,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\CVgenerator.h(23,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\CVgenerator.h(24,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\CVgenerator.h(25,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\CVgenerator.h(29,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\CVgenerator.h(30,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\CVgenerator.h(31,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\CVgenerator.h(32,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\CVgenerator.h(33,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\CVgenerator.h(34,16): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\main.cpp(24,55): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
           with
           [
               T=unsigned int
           ]
-F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\main.cpp(19,35): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\main.cpp(24,35): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
           with
           [
               T=unsigned int
           ]
-F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\main.cpp(20,54): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\main.cpp(25,54): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
           with
           [
               T=unsigned int
           ]
-F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\main.cpp(20,34): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+F:\Hackathon Project\Hackathon(Team_Sigma.exe)\Hackathon(Team_Sigma.exe)\main.cpp(25,34): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
           with
           [
               T=unsigned int

@@ -45,12 +45,12 @@ void getAdditionalInfo(std::string inputString[6])
     text[4].setString("Sports:\n");
     text[5].setPosition(100, 450);
     text[5].setString("Extra Information:\n");
-    textans[0].setPosition(590, 252); // Set the position of the text
-    textans[1].setPosition(360, 292); // Set the position of the text
-    textans[2].setPosition(310, 332); // Set the position of the text
-    textans[3].setPosition(250, 372); // Set the position of the text
-    textans[4].setPosition(210, 412); // Set the position of the text
-    textans[5].setPosition(370, 452); // Set the position of the text
+    textans[0].setPosition(590, 250); // Set the position of the text
+    textans[1].setPosition(360, 290); // Set the position of the text
+    textans[2].setPosition(310, 330); // Set the position of the text
+    textans[3].setPosition(250, 370); // Set the position of the text
+    textans[4].setPosition(210, 410); // Set the position of the text
+    textans[5].setPosition(370, 450); // Set the position of the text
     int i = 0;
     std::string abc = "";
     while (window.isOpen()) // Main game loop

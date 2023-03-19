@@ -43,11 +43,11 @@ void getPersonalInfo(std::string inputString[5])
     text[3].setString("Date Of Birth(DD/MM/YY):\n");
     text[4].setPosition(100, 410);
     text[4].setString("Gender:\n");
-    textans[0].setPosition(280, 252); // Set the position of the text
-    textans[1].setPosition(280, 292); // Set the position of the text
-    textans[2].setPosition(280, 332); // Set the position of the text
-    textans[3].setPosition(470, 372); // Set the position of the text
-    textans[4].setPosition(230, 412); // Set the position of the text
+    textans[0].setPosition(280, 250); // Set the position of the text
+    textans[1].setPosition(280, 290); // Set the position of the text
+    textans[2].setPosition(280, 330); // Set the position of the text
+    textans[3].setPosition(470, 370); // Set the position of the text
+    textans[4].setPosition(230, 410); // Set the position of the text
     int i = 0;
     std::string abc = "";
     while (window.isOpen()) // Main game loop
@@ -78,7 +78,7 @@ void getPersonalInfo(std::string inputString[5])
                     }
                     else // Add character to input string
                     {
-                        inputString[i] += static_cast<char>(event.text.unicode); // Add the input character to the input string
+                        inputString[i] += (char)(event.text.unicode); // Add the input character to the input string
                         textans[i].setString(inputString[i]); // Set the input string to the text object
                     }
                 }

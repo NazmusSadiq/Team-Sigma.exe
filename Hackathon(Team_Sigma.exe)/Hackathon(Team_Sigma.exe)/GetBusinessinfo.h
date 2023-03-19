@@ -45,12 +45,12 @@ void getBusinessInfo(std::string inputString[6])
     text[4].setString("Start Date:\n");
     text[5].setPosition(100, 450);
     text[5].setString("End Date:\n");
-    textans[0].setPosition(250, 252); // Set the position of the text
-    textans[1].setPosition(260, 292); // Set the position of the text
-    textans[2].setPosition(170, 332); // Set the position of the text
-    textans[3].setPosition(230, 372); // Set the position of the text
-    textans[4].setPosition(260, 412); // Set the position of the text
-    textans[5].setPosition(245, 452); // Set the position of the text
+    textans[0].setPosition(250, 250); // Set the position of the text
+    textans[1].setPosition(260, 290); // Set the position of the text
+    textans[2].setPosition(170, 330); // Set the position of the text
+    textans[3].setPosition(230, 370); // Set the position of the text
+    textans[4].setPosition(260, 410); // Set the position of the text
+    textans[5].setPosition(245, 450); // Set the position of the text
     int i = 0;
     std::string abc = "";
     while (window.isOpen()) // Main game loop
@@ -81,7 +81,7 @@ void getBusinessInfo(std::string inputString[6])
                     }
                     else // Add character to input string
                     {
-                        inputString[i] += static_cast<char>(event.text.unicode); // Add the input character to the input string
+                        inputString[i] += (event.text.unicode); // Add the input character to the input string
                         textans[i].setString(inputString[i]); // Set the input string to the text object
                     }
                 }
